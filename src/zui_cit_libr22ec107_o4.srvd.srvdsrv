@@ -1,0 +1,11 @@
+@EndUserText: {
+  label: 'Service Definition for ZC_CIT_LIBR22EC107'
+}
+@ObjectModel: {
+  leadingEntity: {
+    name: 'ZC_CIT_LIBR22EC107'
+  }
+}
+define service ZUI_CIT_LIBR22EC107_O4 provider contracts odata_v4_ui {
+  expose ZC_CIT_LIBR22EC107;
+}

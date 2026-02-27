@@ -1,0 +1,57 @@
+managed implementation in class ZBP_R_CIT_LIBR22EC107 unique;
+strict ( 2 );
+with draft;
+extensible;
+define behavior for ZR_CIT_LIBR22EC107 alias ZrCitLibr22ec107
+persistent table ZCIT_LIBR22EC107
+extensible
+draft table ZCIT_LBR22C107_D
+etag master LocalLastChangedAt
+lock master total etag LastChangedAt
+authorization master( global )
+{
+  field ( mandatory : create )
+   BookID;
+
+  field ( readonly )
+   LocalCreatedBy,
+   LocalCreatedAt,
+   LocalLastChangedBy,
+   LocalLastChangedAt,
+   LastChangedAt;
+
+  field ( readonly : update )
+   BookID;
+
+
+  create;
+  update;
+  delete;
+
+  draft action Activate optimized;
+  draft action Discard;
+  draft action Edit;
+  draft action Resume;
+  draft determine action Prepare;
+
+  mapping for ZCIT_LIBR22EC107 corresponding extensible
+  {
+    BookID = BOOK_ID;
+    Title = TITLE;
+    Author = AUTHOR;
+    Category = CATEGORY;
+    RackNo = RACK_NO;
+    PublishedYear = PUBLISHED_YEAR;
+    IssueDate = ISSUE_DATE;
+    Language = LANGUAGE;
+    Price = PRICE;
+    Edition = EDITION;
+    Currency = CURRENCY;
+    LocalCreatedBy = LOCAL_CREATED_BY;
+    LocalCreatedAt = LOCAL_CREATED_AT;
+    LocalLastChangedBy = LOCAL_LAST_CHANGED_BY;
+    LocalLastChangedAt = LOCAL_LAST_CHANGED_AT;
+    LastChangedAt = LAST_CHANGED_AT;
+  }
+
+}

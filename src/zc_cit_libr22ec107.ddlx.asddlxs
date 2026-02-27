@@ -1,0 +1,234 @@
+@Metadata.layer: #CORE
+@UI.headerInfo.title.type: #STANDARD
+@UI.headerInfo.title.value: 'BookID'
+@UI.headerInfo.description.type: #STANDARD
+@UI.headerInfo.description.value: 'BookID'
+annotate view ZC_CIT_LIBR22EC107 with
+{
+  @EndUserText.label: 'BookID'
+  @UI.facet: [ {
+    label: 'General Information', 
+    id: 'GeneralInfo', 
+    purpose: #STANDARD, 
+    position: 10 , 
+    type: #IDENTIFICATION_REFERENCE
+  } ]
+  @UI.identification: [ {
+    position: 10 , 
+    label: 'BookID'
+  } ]
+  @UI.lineItem: [ {
+    position: 10 , 
+    label: 'BookID'
+  } ]
+  @UI.selectionField: [ {
+    position: 10 
+  } ]
+  BookID;
+  
+  @EndUserText.label: 'Title'
+  @UI.identification: [ {
+    position: 20 , 
+    label: 'Title'
+  } ]
+  @UI.lineItem: [ {
+    position: 20 , 
+    label: 'Title'
+  } ]
+  @UI.selectionField: [ {
+    position: 20 
+  } ]
+  Title;
+  
+  @EndUserText.label: 'Author'
+  @UI.identification: [ {
+    position: 30 , 
+    label: 'Author'
+  } ]
+  @UI.lineItem: [ {
+    position: 30 , 
+    label: 'Author'
+  } ]
+  @UI.selectionField: [ {
+    position: 30 
+  } ]
+  Author;
+  
+  @UI.identification: [ {
+    position: 40 
+  } ]
+  @UI.lineItem: [ {
+    position: 40 
+  } ]
+  @UI.selectionField: [ {
+    position: 40 
+  } ]
+  Category;
+  
+  @EndUserText.label: 'RackNo'
+  @UI.identification: [ {
+    position: 50 , 
+    label: 'RackNo'
+  } ]
+  @UI.lineItem: [ {
+    position: 50 , 
+    label: 'RackNo'
+  } ]
+  @UI.selectionField: [ {
+    position: 50 
+  } ]
+  RackNo;
+  
+  @EndUserText.label: 'PublishedYear'
+  @UI.identification: [ {
+    position: 60 , 
+    label: 'PublishedYear'
+  } ]
+  @UI.lineItem: [ {
+    position: 60 , 
+    label: 'PublishedYear'
+  } ]
+  @UI.selectionField: [ {
+    position: 60 
+  } ]
+  PublishedYear;
+  
+  @EndUserText.label: 'IssueDate'
+  @UI.identification: [ {
+    position: 70 , 
+    label: 'IssueDate'
+  } ]
+  @UI.lineItem: [ {
+    position: 70 , 
+    label: 'IssueDate'
+  } ]
+  @UI.selectionField: [ {
+    position: 70 
+  } ]
+  IssueDate;
+  
+  @EndUserText.label: 'Language'
+  @UI.identification: [ {
+    position: 80 , 
+    label: 'Language'
+  } ]
+  @UI.lineItem: [ {
+    position: 80 , 
+    label: 'Language'
+  } ]
+  @UI.selectionField: [ {
+    position: 80 
+  } ]
+  Language;
+  
+  @EndUserText.label: 'Price'
+  @UI.identification: [ {
+    position: 90 , 
+    label: 'Price'
+  } ]
+  @UI.lineItem: [ {
+    position: 90 , 
+    label: 'Price'
+  } ]
+  @UI.selectionField: [ {
+    position: 90 
+  } ]
+  Price;
+  
+  @EndUserText.label: 'Edition'
+  @UI.identification: [ {
+    position: 100 , 
+    label: 'Edition'
+  } ]
+  @UI.lineItem: [ {
+    position: 100 , 
+    label: 'Edition'
+  } ]
+  @UI.selectionField: [ {
+    position: 100 
+  } ]
+  Edition;
+  
+  @EndUserText.label: 'Currency'
+  @UI.identification: [ {
+    position: 110 , 
+    label: 'Currency'
+  } ]
+  @UI.lineItem: [ {
+    position: 110 , 
+    label: 'Currency'
+  } ]
+  @UI.selectionField: [ {
+    position: 110 
+  } ]
+  Currency;
+  
+  @UI.identification: [ {
+    position: 120 
+  } ]
+  @UI.lineItem: [ {
+    position: 120 
+  } ]
+  @UI.selectionField: [ {
+    position: 120 
+  } ]
+  LocalCreatedBy;
+  
+  @UI.identification: [ {
+    position: 130 
+  } ]
+  @UI.lineItem: [ {
+    position: 130 
+  } ]
+  @UI.selectionField: [ {
+    position: 130 
+  } ]
+  LocalCreatedAt;
+  
+  @UI.identification: [ {
+    position: 140 
+  } ]
+  @UI.lineItem: [ {
+    position: 140 
+  } ]
+  @UI.selectionField: [ {
+    position: 140 
+  } ]
+  LocalLastChangedBy;
+  
+  @UI.identification: [ {
+    position: 150 
+  } ]
+  @UI.lineItem: [ {
+    position: 150 
+  } ]
+  @UI.selectionField: [ {
+    position: 150 
+  } ]
+  LocalLastChangedAt;
+  
+  @UI.identification: [ {
+    position: 160 
+  } ]
+  @UI.lineItem: [ {
+    position: 160 
+  } ]
+  @UI.selectionField: [ {
+    position: 160 
+  } ]
+  LastChangedAt;
+  
+  @EndUserText.label: '_BaseEntity'
+  @UI.identification: [ {
+    position: 170 , 
+    label: '_BaseEntity'
+  } ]
+  @UI.lineItem: [ {
+    position: 170 , 
+    label: '_BaseEntity'
+  } ]
+  @UI.selectionField: [ {
+    position: 170 
+  } ]
+  _BaseEntity;
+}
